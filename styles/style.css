@@ -42,8 +42,9 @@ nav {
 
 /* Styling for nav ul as the container for the nav elements */
 .nav {
-  display: flex;
+  display: grid;
   list-style: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto;
 }
 
 /* Hero section with full width and background image */

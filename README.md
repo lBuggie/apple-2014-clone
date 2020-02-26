@@ -1,4 +1,4 @@
-# Youtube Clone
+# Apple Clone
 
 > This is an Apple landing page clone from 2014 for practicing background images and gradients.
 

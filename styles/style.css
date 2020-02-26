@@ -54,27 +54,27 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto;
   justify-content: center;
   color: white;
-  background-color: lightgray;
-  background: linear-gradient(
-    rgba(0, 0, 0, .2),
-    rgba(0, 0, 0, 0) 5%,
-    rgba(0, 0, 0, 0) 97%,
-    rgba(0, 0, 0, .45)
-  ),
-  linear-gradient(
-    rgba(0, 0, 0, .2),
-    rgba(0, 0, 0, 0) 2%,
-    rgba(0, 0, 0, 0) 99.8%,
-    rgba(0, 0, 0, .2)
-  ),
-  linear-gradient(
-    #808080,
-    #707070 50%,
-    #5e5e5e 51%,
-    rgb(129, 129, 129)
-  );
-  box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
-  border-radius: 4px;  
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0) 5%,
+      rgba(0, 0, 0, 0) 97%,
+      rgba(0, 0, 0, 0.45)
+    ),
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0) 2%,
+      rgba(0, 0, 0, 0) 99.8%,
+      rgba(0, 0, 0, 0.2)
+    ),
+    linear-gradient(
+      #808080,
+      #707070 50%,
+      #5e5e5e 51%,
+      rgb(129, 129, 129)
+    );
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  border-radius: 4px;
 }
 
 .nav img {
@@ -82,7 +82,21 @@ nav {
   margin: 4px 0;
 }
 
-.nav li a{
+.hero a {
+  display: block;
+  height: 30px;
+  overflow-y: hidden;
+}
+
+.footer-1 div a {
+  padding-left: 4px;
+}
+
+.footer-1 div img {
+  margin-bottom: -3px;
+}
+
+.nav li a {
   padding: 0 20px;
   display: inline-block;
   height: 36px;
@@ -90,7 +104,7 @@ nav {
   color: white;
   font-size: 0.8em;
   border-right: 1px solid rgb(75, 75, 75);
-  box-shadow:inset rgba(206, 206, 206, 0.513) 0 1px 2px;
+  box-shadow: inset rgba(206, 206, 206, 0.513) 0 1px 2px;
   text-align: center;
 }
 
@@ -111,8 +125,9 @@ nav {
   height: 18px;
   border: none;
   border-radius: 12px;
-  box-shadow: inset rgba(0, 0, 0, 0.6) 0 2px 1px,
-  rgba(255, 255, 255, 0.2) 0 1px 0;
+  box-shadow:
+    inset rgba(0, 0, 0, 0.6) 0 2px 1px,
+    rgba(255, 255, 255, 0.2) 0 1px 0;
   background-color: transparent;
   padding-left: 20px;
   transition: all 0.3s ease-in-out;
@@ -144,24 +159,17 @@ nav {
   flex-direction: column;
   width: 100vw;
   height: 538px;
-  background-color: aquamarine;
   background: url(../img/your_verse_hero.jpg) 50% 100% no-repeat;
   background-size: cover;
   justify-content: center;
   align-items: center;
 }
 
-.hero a {
-  display: block;
-  height: 30px;
-  overflow-y: hidden;
-}
-
 .hero a img:hover {
   margin-top: -32px;
 }
 
-/* Promo images with grid display*/
+/* Promo images with grid display */
 .promos {
   display: grid;
   width: 100vw;
@@ -170,10 +178,28 @@ nav {
   margin-top: 2px;
 }
 
-/* Footer and styles of its elements */
 footer {
   width: 72.3%;
   margin: 0 auto;
   font-size: 0.6em;
   color: #6e6e6e;
+  padding: 20px 0;
+}
+
+.footer-1 {
+  height: 30px;
+  line-height: 30px;
+}
+
+.footer-1 p {
+  float: left;
+}
+
+.footer-1 div {
+  float: right;
+}
+
+.footer-1 div a:not(:last-child) {
+  border-right: 1px solid #ccc;
+  padding-right: 7px;
 }

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Lucida Grande";
+  src: url(LucidaGrande.ttf);
+}
+
+@font-face {
+  font-family: "Lucida Grande";
+  src: url(LucidaGrandeBold.ttf);
+  font-weight: bold;
+}
+
+body {
+  font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+}

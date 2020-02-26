@@ -36,7 +36,7 @@ a:hover {
 
 nav {
   position: absolute;
-  height: 40px;
+  height: 36px;
   z-index: 1;
 }
 
@@ -49,22 +49,23 @@ nav {
 
 /* Hero section with full width and background image */
 .hero {
-  display: block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 538px;
-  top: 0;
   background-color: aquamarine;
   background: url(../img/your_verse_hero.jpg) 50% 100% no-repeat;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 
 .promos {
   display: grid;
   width: 100vw;
   grid-template-columns: 25vw 25vw 25vw 25vw;
-  grid-gap: 5px;
-  margin-top: 5px;
+  grid-gap: 2px;
+  margin-top: 2px;
 }
 
 footer {

@@ -46,6 +46,7 @@ nav {
   list-style: none;
 }
 
+/* Hero section with full width and background image */
 .hero {
   display: block;
   position: relative;
@@ -53,7 +54,7 @@ nav {
   height: 538px;
   top: 0;
   background-color: aquamarine;
-  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background: url(../img/your_verse_hero.jpg) 50% 100% no-repeat;
   background-size: cover;
 }
 

@@ -44,7 +44,7 @@ nav {
 /* Styling for nav ul as the container for the nav elements */
 .nav {
   margin: 0 auto;
-  width: 70%;
+  width: 72.3%;
   height: 36px;
   margin-top: 85px;
   display: grid;
@@ -53,6 +53,7 @@ nav {
   line-height: 36px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto;
   justify-content: center;
+  color: white;
   background-color: lightgray;
   background: linear-gradient(
     rgba(0, 0, 0, .2),
@@ -76,6 +77,11 @@ nav {
   border-radius: 4px;  
 }
 
+.nav img {
+  height: 25px;
+  margin: 4px 0;
+}
+
 .nav li a{
   padding: 0 20px;
   display: inline-block;
@@ -85,6 +91,7 @@ nav {
   font-size: 0.8em;
   border-right: 1px solid rgb(75, 75, 75);
   box-shadow:inset rgba(206, 206, 206, 0.513) 0 1px 2px;
+  text-align: center;
 }
 
 .nav li a:hover {
@@ -96,11 +103,39 @@ nav {
   box-shadow: inset 0 0 10px rgba(180, 180, 180, 0.664);
 }
 
+/* Search box styling, will grow on focus */
 #search {
   margin: 0 20px;
-  border-radius: 10px;
-  box-shadow: inset 0 1px 1px 1px rgb(48, 48, 48),
-    inset 0 -1px 1px 1px rgb(128, 128, 128);
+  margin-right: calc(20px - 0.7em);
+  width: 106px;
+  height: 18px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: inset rgba(0, 0, 0, 0.6) 0 2px 1px,
+  rgba(255, 255, 255, 0.2) 0 1px 0;
+  background-color: transparent;
+  padding-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-search {
+  font-size: 0.7em;
+  position: relative;
+  left: -116px;
+  top: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+#search:focus {
+  width: 180px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+#search:focus + .fa-search {
+  color: gray;
+  left: -190px;
+  transition: 0.3s ease-in-out;
 }
 
 /* Hero section with full width and background image */
@@ -135,7 +170,10 @@ nav {
   margin-top: 2px;
 }
 
+/* Footer and styles of its elements */
 footer {
-  width: 80%;
+  width: 72.3%;
   margin: 0 auto;
+  font-size: 0.6em;
+  color: #6e6e6e;
 }

@@ -1,29 +1,23 @@
 # Youtube Clone
 
-> This is a YouTube clone for the Basic HTML structure project based on the archive link provided.
+> This is an Apple landing page clone from 2014 for practicing background images and gradients.
 
-- Archive: http://archive.ph/Bss88
+- Archive: https://web.archive.org/web/20140301004610/http://www.apple.com/
 
-![screenshot](images/youtube-clone.png)
+![screenshot](img/apple-clone.png)
 
 ## Built With
 
 - HTML5, CSS3
-- Flexbox
+- Grid, Floats
 
 ## Live Demo
 
-[Live Demo Link](https://flpfar.github.io/youtube-clone/)
+[Live Demo Link](https://lbuggie.github.io/apple-2014-clone/)
 
 ## Authors
 
 👤 **Author1**
-
-- Github: [@flpfar](https://github.com/flpfar)
-- Twitter: [@flpfar](https://twitter.com/flpfar)
-- Linkedin: [linkedin](https://www.linkedin.com/in/felipe-augusto-rosa-7b96a4b1)
-
-👤 **Author2**
 
 - Github: [@lBuggie](https://github.com/githubhandle)
 - Twitter: [@sebGilR](https://twitter.com/sebGilR)

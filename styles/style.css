@@ -189,19 +189,19 @@ body > span {
 }
 
 #promo-1 {
-  background: url(/img/promo_iphone5s.jpg) center center no-repeat;
+  background: url(../img/promo_iphone5s.jpg) center center no-repeat;
 }
 
 #promo-2 {
-  background: url(/img/promo_iphone5c.jpg) center center no-repeat;
+  background: url(../img/promo_iphone5c.jpg) center center no-repeat;
 }
 
 #promo-3 {
-  background: url(/img/promo_30_years.jpg) center center no-repeat;
+  background: url(../img/promo_30_years.jpg) center center no-repeat;
 }
 
 #promo-4 {
-  background: url(/img/promo_supplier_responsibility.jpg) center center no-repeat;
+  background: url(../img/promo_supplier_responsibility.jpg) center center no-repeat;
 }
 
 /* Footer styling */

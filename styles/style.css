@@ -154,6 +154,10 @@ nav {
 }
 
 /* Hero section with full width and background image */
+body > span {
+  cursor: pointer;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
